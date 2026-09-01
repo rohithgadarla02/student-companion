@@ -1,0 +1,16 @@
+{
+  "name": "student-companion",
+  "version": "1.0.0",
+  "description": "AI-powered student companion platform",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "server": "cd server && npm start",
+    "server-dev": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  }
+}
