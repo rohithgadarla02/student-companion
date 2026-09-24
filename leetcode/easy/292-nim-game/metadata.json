@@ -1,0 +1,27 @@
+{
+  "title": "Nim Game",
+  "titleSlug": "nim-game",
+  "frontendQuestionId": "292",
+  "leetcodeUrl": "https://leetcode.com/problems/nim-game/",
+  "difficulty": "Easy",
+  "topics": [
+    "Math",
+    "Brainteaser",
+    "Minimax",
+    "Game Theory",
+    "Nim Game",
+    "Impartial Game"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-09-24T19:09:19.831Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "NONE",
+  "helpLabel": "Solved solo",
+  "focusSeconds": null,
+  "syncedAt": "2026-09-24T19:09:22.059Z"
+}
