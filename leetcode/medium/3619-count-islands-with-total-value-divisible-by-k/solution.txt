@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int dr[4] = {1,-1,0,0};
+    int dc[4] = {0,0,1,-1};
+    long long solve(vector<vector<int>>& grid, int i, int j){
+        int m = grid.size();
+        int n = grid[0].size();
+        long long sum = grid[i][j];
+        grid[i][j] = 0;
+        for(int k=0;k<4;k++){
+            int r = i+dr[k];
+            int c = j+dc[k];
+            if(r<m && c<n && c>=0 && r>=0 && grid[r][c]!=0){
+                sum += solve(grid, r, c);
+            }
+        }
+        return sum;
+    }
+
+    int countIslands(vector<vector<int>>& grid, int k) {
+        int m = grid.size();
+  
